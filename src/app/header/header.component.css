@@ -1,0 +1,10 @@
+header{
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px;
+
+    background-color: #F442D9;
+}
