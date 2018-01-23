@@ -1,0 +1,14 @@
+<div>
+  <button (click)="mostrarFormulario()" *ngIf="!formularioAtivo">
+    Entre em contato
+  </button>
+</div>
+
+<form *ngIf="formularioAtivo">
+  <input type="text" placeholder="Nome">
+  <input type="text" placeholder="E-mail">
+  
+  <textarea type="text" placeholder="Mensagem">
+  </textarea>
+  
+</form>

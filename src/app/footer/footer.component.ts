@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   rodape = 'Mastertech 2018';
+  sambou = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  sambar(){
+    this.sambou = true;
   }
 }

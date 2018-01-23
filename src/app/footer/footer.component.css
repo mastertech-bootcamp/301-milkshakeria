@@ -7,3 +7,17 @@ footer{
     background-color: #f442d9;
     color: white;
 }
+
+footer img{
+    background-color: white;
+    border-radius: 100%;
+    padding: 2px;
+    left: 10px;
+    position: absolute;
+    width: 20px;
+    transition: 1s;
+}
+
+footer img.slide{
+    left: 80%;
+}
