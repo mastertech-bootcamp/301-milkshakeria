@@ -1,5 +1,5 @@
-div{
-    /* width: 18%; */
+:host{
+    width: 18%;
 }
 
 div img {

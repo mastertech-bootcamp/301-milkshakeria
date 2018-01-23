@@ -1,9 +1,7 @@
 <app-header></app-header>
 
 <div class="vitrine">
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
+    <app-produto *ngFor="let produto of produtos" imagem="{{produto}}"></app-produto>
 </div>
+
+<app-footer></app-footer>
